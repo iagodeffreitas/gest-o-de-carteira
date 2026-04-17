@@ -1,0 +1,6 @@
+{
+  "name": "OpenFx Gestão de Carteira",
+  "description": "Painel operacional e financeiro para gestão de depósitos e saques de clientes do OpenFx (Admin, Dashboard, Fintech).",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

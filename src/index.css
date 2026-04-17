@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: var(--border-main);
+}
+
+@layer base {
+  :root {
+    --bg-main: #020617;
+    --bg-card: #0f172a;
+    --border-main: #1e293b;
+    --border-soft: #0b1220;
+    --text-main: #e2e8f0;
+    --text-sec: #cbd5e1;
+    --text-disc: #94a3b8;
+    --bg-panel: #0b1220;
+    --bg-blue-soft: rgba(147, 197, 253, 0.1);
+    --border-blue-soft: var(--blue-accent);
+    --blue-accent: #93c5fd;
+    
+    --status-pending-text: #ffd998;
+    --status-pending-bg: rgba(255, 217, 152, 0.1);
+    --status-process-text: #b8d6ff;
+    --status-process-bg: rgba(147, 197, 253, 0.1);
+    --status-approved-text: #bff8df;
+    --status-approved-bg: rgba(191, 248, 223, 0.1);
+    --status-rejected-text: #ffc5d1;
+    --status-rejected-bg: rgba(255, 197, 209, 0.1);
+  }
+
+  .dark {
+    /* The theme is inherently dark, but we keep this for structure */
+    --bg-main: #020617;
+    --bg-card: #0f172a;
+    --border-main: #1e293b;
+    --border-soft: #0b1220;
+    --text-main: #e2e8f0;
+    --text-sec: #cbd5e1;
+    --text-disc: #94a3b8;
+    --bg-panel: #0b1220;
+    --bg-blue-soft: rgba(147, 197, 253, 0.1);
+    --border-blue-soft: var(--blue-accent);
+    --blue-accent: #93c5fd;
+
+    --status-pending-text: #ffd998;
+    --status-pending-bg: rgba(255, 217, 152, 0.1);
+    --status-process-text: #b8d6ff;
+    --status-process-bg: rgba(147, 197, 253, 0.1);
+    --status-approved-text: #bff8df;
+    --status-approved-bg: rgba(191, 248, 223, 0.1);
+    --status-rejected-text: #ffc5d1;
+    --status-rejected-bg: rgba(255, 197, 209, 0.1);
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
